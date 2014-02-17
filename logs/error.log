@@ -1,0 +1,16 @@
+[Sun Feb 16 21:34:09 2014] [error] (111)Connection refused: proxy: HTTP: attempt to connect to 50.79.29.17:3000 (samuel-allen.com) failed
+[Sun Feb 16 21:34:09 2014] [error] ap_proxy_connect_backend disabling worker for (samuel-allen.com)
+[Sun Feb 16 21:34:09 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:12 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:12 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:13 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:13 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:14 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:14 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:15 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:15 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:15 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:34:15 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
+[Sun Feb 16 21:36:25 2014] [error] (111)Connection refused: proxy: HTTP: attempt to connect to 50.79.29.17:3000 (samuel-allen.com) failed
+[Sun Feb 16 21:36:25 2014] [error] ap_proxy_connect_backend disabling worker for (samuel-allen.com)
+[Sun Feb 16 21:36:26 2014] [error] proxy: HTTP: disabled connection for (samuel-allen.com)
