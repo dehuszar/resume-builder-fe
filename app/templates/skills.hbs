@@ -1,0 +1,18 @@
+<div id="skills" class="skills section module">
+	<h1>Skills</h1>
+	<div class="article">
+		<div class="large inline description">
+		</div>
+		<div class="large">
+			<h2>Development Expertise <span class="system"> (click items for more details)</span></h2>
+			<ul>
+				{{#each skill in model}}
+				<li>
+					{{skill.title}};
+					<p class="desc">{{skill.description}}</p>
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+	</div>
+</div>

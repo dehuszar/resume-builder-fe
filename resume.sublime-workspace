@@ -1,0 +1,874 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ext",
+				"extensions"
+			],
+			[
+				"dir",
+				"__dirname"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"ex",
+				"ext"
+			],
+			[
+				"re",
+				"registry"
+			],
+			[
+				"menu",
+				"menuexp"
+			],
+			[
+				"s",
+				"schwainmotion"
+			],
+			[
+				"me",
+				"menuexp"
+			],
+			[
+				"res",
+				"resource"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"time",
+				"timesheet"
+			],
+			[
+				"par",
+				"partial"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"dat",
+				"data-template-name"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"link",
+				"linkTo"
+			],
+			[
+				"I",
+				"Invoice"
+			],
+			[
+				"Time",
+				"timesheets"
+			],
+			[
+				"x-",
+				"x-handlebars"
+			],
+			[
+				"tim",
+				"timesheets"
+			],
+			[
+				"x",
+				"x-handlebars"
+			],
+			[
+				"timeshe",
+				"timesheetProject"
+			],
+			[
+				"F",
+				"FIXTURES"
+			],
+			[
+				"client",
+				"clientName"
+			],
+			[
+				"am",
+				"amtBilled"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"search",
+				"search_strings"
+			],
+			[
+				"searc",
+				"searchStrings"
+			],
+			[
+				"se",
+				"searchStrings"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"arti",
+				"article"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"search-",
+				"search-filter"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"gen",
+				"genre-filter"
+			],
+			[
+				"qp",
+				"qpersonal5"
+			],
+			[
+				"q",
+				"qdefault4"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "old-site-output.html",
+			"settings":
+			{
+				"buffer_size": 23464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/application.hbs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/normalize.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 2967,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/router.js",
+			"settings":
+			{
+				"buffer_size": 353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/skills.hbs",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/skill.js",
+			"settings":
+			{
+				"buffer_size": 4195,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes/skills.js",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"con",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/no1dev/invoices.no1isincontrol.com/app/routes/timesheets.js",
+		"/media/no1dev/samuel-allen.com/app/app.js",
+		"/media/no1dev/samuel-allen.com/app/styles/app.styl",
+		"/media/no1dev/invoices.no1isincontrol.com/app/routes/timesheets/index.js",
+		"/media/no1dev/invoices.no1isincontrol.com/app/app.js",
+		"/media/no1dev/invoices.no1isincontrol.com/app/models/timesheet.js",
+		"/media/no1dev/samuel-allen.com/app/templates/index.hbs",
+		"/media/no1dev/samuel-allen.com/app/styles/app.css",
+		"/media/no1dev/html5-boilerplate/index.html",
+		"/media/no1dev/samuel-allen.com/app/templates/error.hbs",
+		"/media/no1dev/hfjsp.no1isincontrol.com/public_html/chapter5/carWithDrive.html",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/catherineandsamswedding.com/server.js",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/catherineandsamswedding.com/package.json",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/public/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/public/js/app.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/public_html/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/public_html/css/style.css",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/public_html/js/app.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/public_html/stylus/main.styl",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/schwa.no1isincontrol.com/public_html/js/app.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/server.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/package.json",
+		"/var/www/ember-training-chicago-completed/js/app.js",
+		"/var/www/ember-training-chicago-completed/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/schwa.no1isincontrol.com/public_html/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/catherineandsamswedding.com/app.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/schwa.no1isincontrol.com/public_html/js/libs/ember-animated-outlet.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/schwa.no1isincontrol.com/public_html/includes/header.inc.php",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/schwa.no1isincontrol.com/public_html/includes/masthead.inc.php",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/schwa.no1isincontrol.com/.gitignore",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/index.html.ORIG",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/models/timesheet.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/models/invoice.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/controllers/invoice.js",
+		"/media/qualified/public/js/app/templates/widgets/header.html",
+		"/media/qualified/public/js/app/views/widgets/header.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/app.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/stylus/main.styl",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/models/invoices.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/controllers/timesheet.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/router.js",
+		"/media/qualified/public/js/app/templates/widgets/work-histories.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/main.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/models/client.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/app/models/org.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/js/router.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/invoices.no1isincontrol.com/public_html/js/app.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/invoices.no1isincontrol.com/public_html/solo-invoice-20120730.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/invoices.no1isincontrol.com/public_html/stylus/main.styl",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/invoices.no1isincontrol.com/public_html/stylus/normalize.styl",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/invoices.no1isincontrol.com/public_html/stylus/variables.styl",
+		"/home/***REMOVED***/.local/share/applications/sublime.desktop",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/mongo4dev/test.py",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/var/www/invoices.no1isincontrol.com/public_html/img/N1InvoiceLogo.svg",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/invoices.no1isincontrol.com/public_html/stylus/normalize.styl",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/worklocal.no1isincontrol.com/templates/default_site/export.group/_profile_data.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/worklocal.no1isincontrol.com/templates/default_site/export.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/worklocal.no1isincontrol.com/templates/default_site/export.group/results.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/profiles.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/_filters.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=192.168.1.10/home/***REMOVED***/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/registrations.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/_doc_check.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/application.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/_apply.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/item.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/scripts.group/script.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/styles.group/defaults.css",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/styles.group/index.css",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/_has_app.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/system/expressionengine/modules/safecracker/libraries/safecracker_lib.php",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/_has_both.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/_header.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/edit_employer.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/news.group/edit_news.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/page.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/_share.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/_footer.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/edit_job.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/calendar.group/edit_event.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/edit_job_placement.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/notes.group/edit_note.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/resources.group/edit_resource.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/about.group/edit_partner.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/about.group/edit_affiliate.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/edit_page.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/about.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/registrations.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/_filters.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/export_jobs.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/_nav.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/export_applications.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/_export_member_data.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/export_jobs",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/scripts.group/main.js",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/_super_search_resources.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/site.group/_site_search.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/search.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/library.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/search.group/solspace-test.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/_super_search_library.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/search.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/widgets.group/news_events_quick_events.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/day.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/_calendar.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/_events.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/events.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/widgets.group/related_entries.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/galleries.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/month.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/site.group/_persistent_sidebar.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/styles.group/defaults.css",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/styles.group/index.css",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/impact.group/_entries.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/toolkits-curriculum.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/speeches-presentations.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/articles-essays.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/impact.group/case-studies.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/site.group/_dynamic_sidebar.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/widgets.group/related_links.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/blog.group/_entries.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/site.group/index.html",
+		"/run/user/***REMOVED***/gvfs/sftp:host=no1isincontrol.com,user=***REMOVED***/var/www/stg.ccr.no1isincontrol.com/templates/default_site/site.group/pages.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stylus",
+			"style",
+			"schwa",
+			"glyph",
+			"menu",
+			"sub",
+			"bindAttr href",
+			"{{masthead}}",
+			"mich",
+			"family",
+			"animations='main:fade'",
+			"linkToAnimated",
+			"linkTo",
+			"outlet",
+			"linkTo",
+			"<a id=\"aboutplayer\" class=\"player\" href=\"videos/mastheads/about.mp4\"></a>\n<a id=\"menuexpplayer\" class=\"player\" href=\"videos/mastheads/menuexp.mp4\"></a>\n<a id=\"michaelplayer\" class=\"player\" href=\"videos/mastheads/michael.mp4\"></a>\n<a id=\"pressplayer\" class=\"player\" href=\"videos/mastheads/press.mp4\"></a>\n<a id=\"resconplayer\" class=\"player\" href=\"videos/mastheads/rsvp.mp4\"></a>",
+			"date",
+			"h1",
+			"color",
+			"em ",
+			"em;",
+			"h1",
+			"{application_referredby}",
+			"application_referredby",
+			"email",
+			"application_telephone_type_2",
+			"application_address",
+			"profile_",
+			"|",
+			",",
+			"super_search_to",
+			"registration",
+			"strong",
+			"Pre-screening",
+			"app_check",
+			"foreach (explode('|', $_POST['checkbox_fields']) as $checkbox)\n{\n    if ( ! isset($_POST[$checkbox]))\n    {\n        $_POST[$checkbox] = '';\n    }\n} ",
+			"fav",
+			"doc-",
+			"has_app",
+			"<div class=\"clear",
+			"pagin",
+			"aside",
+			"--}",
+			"position",
+			"embed",
+			"content",
+			"id",
+			"edit",
+			"edit_path",
+			"#publishForm fieldset p",
+			",",
+			";",
+			"jobs_job_location",
+			",",
+			"32",
+			"sort",
+			"embed",
+			"sort",
+			"sort resources",
+			"form",
+			"quick_events",
+			"footer",
+			"segment_3",
+			"segment_4",
+			"segment_5",
+			"segment_3",
+			"segment_4",
+			"segment_5",
+			"segment_3",
+			"segment_4",
+			"segment_5",
+			"segment_3",
+			"segment_4",
+			"speeches-presentations",
+			"Speeches / Presentations",
+			"articles-essays",
+			".search-filter.case-studies",
+			"pagination",
+			".search-filter.case-studies",
+			"#content #search-browse, .search-filter.case-studies",
+			"pagination",
+			"-3",
+			"simple-search",
+			"select",
+			"matrix",
+			",",
+			".content #sear",
+			"searc",
+			"View",
+			"pagin",
+			"segment_5",
+			"reset",
+			"#login input[type=\"submit\"], #main input[type=\"submit\"]",
+			"#content #search-browse",
+			"resource_readable_aloud",
+			"genre",
+			"keyword-genre",
+			"blockquote",
+			".grid_4.border_left",
+			".history_company",
+			"$baseFontSize",
+			"h2",
+			"baseFontF",
+			"body",
+			"body/",
+			"body",
+			"select ",
+			"select {\nwidth: auto;\nborder: 1px solid #939598;\nbackground-color: #F3F4F4;",
+			"select",
+			".div_wrap",
+			"width",
+			"wizard_all_history_scroller",
+			"instructions",
+			"grid_2 alpha omega"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "old-site-output.html",
+					"settings":
+					{
+						"buffer_size": 23464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/templates/application.hbs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/styles/normalize.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 2967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/router.js",
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/templates/skills.hbs",
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "app/models/skill.js",
+					"settings":
+					{
+						"buffer_size": 4195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/routes/skills.js",
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true
+}

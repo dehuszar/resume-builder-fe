@@ -1,6 +1,6 @@
 <div class="header">
 	<h1 >Samuel <span class="if-room">deHuszar</span> Allen</h1>
-	<button id="mobile-nav-button"><img src="/img/mobile-nav-button.png" alt="Mobile Navigation Button"></button>
+{{!-- 	<button id="mobile-nav-button"><img src="/img/mobile-nav-button.png" alt="Mobile Navigation Button"></button> --}}
 	<div id="contact-info-inline" class="inline">
 		<address>
 			2956 N Washtenaw Ave #3<br>
@@ -11,7 +11,11 @@
 	</div>	
 </div>
 
-{{outlet}}
+<div class="main">
+
+	{{outlet}}
+
+</div>
 
 <div id="modules" class="modules aside sidebar">
 	<div id="contact-info-module" class="module">
@@ -26,7 +30,7 @@
 		<div class="nav">
 			<ul>
 				<li><a href="#cover-letter">Cover Letter</a></li>
-				<li><a href="#skills">Skills</a></li>
+				<li><a {{bind-attr "skills"}}>Skills</a></li>
 				<li><a href="#references">References</a></li>
 				<li><a href="#about">About this document</a></li>
 				<li>
@@ -35,6 +39,5 @@
 			</ul>
 		</div>
 	</div>
-	<div class="module description">
-	</div>
+	<div class="module description"></div>
 </div>
