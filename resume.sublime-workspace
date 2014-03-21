@@ -199,7 +199,7 @@
 			"file": "app/templates/application.hbs",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1079,
 				"line_ending": "Unix"
 			}
 		},
@@ -207,7 +207,7 @@
 			"file": "app/styles/normalize.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 7711,
 				"line_ending": "Unix"
 			}
 		},
@@ -239,7 +239,7 @@
 			"file": "app/models/skill.js",
 			"settings":
 			{
-				"buffer_size": 4195,
+				"buffer_size": 4180,
 				"line_ending": "Unix"
 			}
 		},
@@ -580,7 +580,6 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
 				{
@@ -615,7 +614,7 @@
 					"file": "app/templates/application.hbs",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1079,
 						"regions":
 						{
 						},
@@ -628,7 +627,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -641,7 +641,7 @@
 					"file": "app/styles/normalize.css",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 7711,
 						"regions":
 						{
 						},
@@ -737,7 +737,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -748,7 +749,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -756,7 +757,7 @@
 					"file": "app/models/skill.js",
 					"settings":
 					{
-						"buffer_size": 4195,
+						"buffer_size": 4180,
 						"regions":
 						{
 						},
@@ -769,7 +770,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

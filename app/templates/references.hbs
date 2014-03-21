@@ -1,0 +1,13 @@
+<section class="references">
+	<h1>References</h1>
+	{{#each reference in model}}
+		<article>
+			<h2>{{reference.name}}</h2>
+			<h3>Relationship</h3>
+			<p>{{reference.relationship}}</p>
+			<h3>Email</h3>
+			<p>{{reference.email}}</p>
+			<p>{{reference.description}}</p>
+		</article>
+	{{/each}}
+</section>

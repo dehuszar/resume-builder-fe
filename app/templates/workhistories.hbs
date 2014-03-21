@@ -1,0 +1,27 @@
+<section class="workhistories module">
+	<h1>Work History</h1>
+
+	{{#each workhistory in model}}
+		<article>
+			<h1>{{workhistory.title}}</h1>
+			<div>
+				<h2>Location</h2>
+				<address>
+					{{workhistory.location}}
+				</address>
+			</div>
+			<div>
+				<h2>Employed From</h2>
+				<p>{{workhistory.employedFrom}} - {{workhistory.employedTo}}</p>
+			</div>
+			<div>
+				<h2>Position</h2>
+				<p>{{workhistory.position}}</p>
+			</div>
+			<div class="large">
+				<h2>Description</h2>
+				{{{workhistory.description}}}
+			</div>
+		</article>
+	{{/each}}
+</section>
