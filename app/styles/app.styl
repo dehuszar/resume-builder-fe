@@ -108,12 +108,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.header, .section {border-bottom: 1px solid;}
-.header {margin: 0; overflow-x: hidden; padding: 2em 5% 1em 0; position: relative;}
-.header h1 {line-height: .75em; margin: 0;}
+header, section {border-bottom: 1px solid;}
+header {margin: 0; overflow-x: hidden; padding: 2em 5% 1em 0; position: relative;}
+header h1 {line-height: .75em; margin: 0;}
 
-.nav {margin: 0;}
-.nav ul {padding: 0;}
+nav {margin: 0;}
+nav ul {padding: 0;}
 
 .if-room {display: none;}
 
@@ -244,14 +244,14 @@ ul .desc {display: none;}
 
 @media only screen and (max-width: 69em) {
 	/* Style adjustments for viewports that meet the condition */
-	.header {overflow: hidden; padding-bottom: 10px; padding-right: 10%;}
-	.header h1 {bottom: 10px;}
+	header {overflow: hidden; padding-bottom: 10px; padding-right: 10%;}
+	header h1 {bottom: 10px;}
 
 	.links.module {border: 0px; height: 0; overflow: hidden; position: absolute; top: 0; width: 90%;}
-	.links.module .nav {border-bottom: 1px solid!important; padding-bottom: 2em;}
-	.links.module li {float: left; list-style: none; width: 50%;}
+	.links.module nav {border-bottom: 1px solid!important; padding-bottom: 2em;}
+	.links.module li {display: inline-block; list-style: none; width: 50%;}
 
-	.section .article .large {float: none; padding-right: 5%; width: 45%;}
+	section article .large {float: none; padding-right: 5%; width: 45%;}
 
 	.skills .inline.description.large {float: right; width: 45%;}
 
@@ -262,8 +262,8 @@ ul .desc {display: none;}
 }
 
 @media only screen and (min-width: 70em) {
-	.section .article div {float: left; margin-bottom: 1em; padding-right: 2%; width: 23%;}
-	.section .article div.large {float: left; padding-right: 5%; width: 45%;}
+	section article div {display: inline-block; margin-bottom: 1em; padding-right: 2%; width: 23%;}
+	section article div.large {display: inline-block; padding-right: 5%; width: 45%;}
 	.if-room {display: inline;}
 	.main {float: left; margin-right: 5%; width: 70%;}
 	#modules {float: left; width: 25%;}
@@ -279,10 +279,10 @@ ul .desc {display: none;}
 
 @media only screen and (max-width: 30em) {
 	h2 .system {display: none;}
-	.header {padding-right: 12%;}
+	header {padding-right: 12%;}
 	.links.module li {float: left; list-style: none; width: 100%;}
 	.education, .skills {float: left; width: 100%;}
-	.section .article .large {width: 90%;}
+	section article .large {width: 90%;}
 	.work-history {float: left;}
 	#contact-info-inline {font-size: 0.4em; right: 12%;}
 	#mobile-nav-button {display: block; position: absolute; right: 0; visibility: visible; width: 10%;}
@@ -306,7 +306,7 @@ ul .desc {display: none;}
         text-shadow: none !important;
     }
 
-	.header {border-bottom: 1px solid rgba(0,0,0,0)!important; display: block; margin-bottom: 1em;}
+	header {border-bottom: 1px solid rgba(0,0,0,0)!important; display: block; margin-bottom: 1em;}
 	h1 {font-size: 2em!important;}
 	.if-room {display: inline; font-weight: bold;}
 
@@ -372,7 +372,7 @@ ul .desc {display: none;}
 	h3 {margin-top: .5em;}
 	p {margin-bottom: .5em; margin-top: 0;}
 
-	#contact-info-module address, #modules.aside, .nav, .skills .system, .skills .desc {display: none!important;}
+	#contact-info-module address, #modules.aside, nav, .skills .system, .skills .desc {display: none!important;}
 
 	#links, #modules {border-bottom: 0;}
 	#contact-info-inline {border-bottom: 0; display: inline; font-size: 0.6em; bottom: 10px; margin: -4.6em 0 0 80%; position: absolute; right: 10%;}
