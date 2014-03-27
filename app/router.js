@@ -3,20 +3,37 @@ var Router = Ember.Router.extend(); // ensure we don't share routes between all 
 Router.map(function() {
 	this.route('component-test');
 	this.route('helper-test');
+
+	// Cover Letters
+	this.resource('coverletters', { path:'/:coverletter_id' }, function(){
+		this.resource('coverletter', { path:'/:coverletter_id' }, function(){
+			this.route('edit');
+		});
+		this.route('create');
+	});
 	
 	// Skills
 	this.resource('skills', function() {
-		this.route('new');
+		this.resource('skill', { path:'/:skill_id' }, function(){
+			this.route('edit');
+		});
+		this.route('create');
 	});
 
 	// Work Histories
 	this.resource('workhistories', function() {
-		this.route('new');
+		this.resource('workhistory', { path:'/:workhistory_id' }, function(){
+			this.route('edit');
+		});
+		this.route('create');
 	});
 
 	// References
 	this.resource('references', function() {
-		this.route('new');
+		this.resource('reference', { path:'/:reference_id' }, function(){
+			this.route('edit');
+		});
+		this.route('create');
 	});
 });
 
