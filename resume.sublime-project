@@ -2,13 +2,16 @@
 	"folders":
 	[
 		{
-			"path": "/media/no1dev/samuel-allen.com"
+			"path": "/home/***REMOVED***/Development/samuel-allen.com"
 		},
 		{
-			"path": "/media/no1dev/html5-boilerplate"
+			"path": "/home/***REMOVED***/Development/api.samuel-allen.com"
 		},
 		{
-			"path": "/media/no1dev/api.samuel-allen.com"
+			"path": "/home/***REMOVED***/Development/ember-app-kit-todos"
+		},
+		{
+			"path": "/home/***REMOVED***/Development/TodoMVC-EAK"
 		}
 	]
 }
