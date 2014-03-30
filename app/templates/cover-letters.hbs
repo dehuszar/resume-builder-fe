@@ -1,0 +1,10 @@
+<section class="cover-letters module">
+	{{#each coverLetter in controller}}
+		<article>
+			<div class="large">
+				{{{coverLetter.body}}}
+			</div>
+		</article>
+	{{/each}}
+	{{outlet}}
+</section>

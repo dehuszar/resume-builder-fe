@@ -2,6 +2,6 @@
 // resolver if their name contains a dash (reverse-word, translate-text, etc.)
 // For more details: http://stefanpenner.github.io/ember-app-kit/guides/using-modules.html
 
-export default Ember.Handlebars.makeBoundHelper(function(word) {
-  return 'poop';
-});
+import ScribeRTE from "appkit/components/scribe-rte";
+
+export default Ember.Handlebars.helper('scribe-rte', ScribeRTE);

@@ -187,89 +187,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "old-site-output.html",
-			"settings":
-			{
-				"buffer_size": 23464,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/index.html",
-			"settings":
-			{
-				"buffer_size": 3079,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/router.js",
-			"settings":
-			{
-				"buffer_size": 461,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/skills.hbs",
-			"settings":
-			{
-				"buffer_size": 417,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/workhistories.hbs",
-			"settings":
-			{
-				"buffer_size": 559,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/media/no1dev/api.samuel-allen.com/api/models/Workhistories.js",
-			"settings":
-			{
-				"buffer_size": 620,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/application.hbs",
-			"settings":
-			{
-				"buffer_size": 829,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes/workhistories.js",
-			"settings":
-			{
-				"buffer_size": 104,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/skills.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"file": "app/models/workhistories.js",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -323,8 +240,23 @@
 	},
 	"file_history":
 	[
-		"/media/no1dev/api.samuel-allen.com/crossdomain.xml",
 		"/media/no1dev/api.samuel-allen.com/config/routes.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/application.hbs",
+		"/media/no1dev/api.samuel-allen.com/api/models/Workhistories.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/skills.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/workhistories.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/index.html",
+		"/home/dehuszar/Development/samuel-allen.com/app/router.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/models/workhistories.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/models/skills.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/routes/workhistories.js",
+		"/media/no1dev/api.samuel-allen.com/api/models/CoverLetters.js",
+		"/media/no1dev/samuel-allen.com/app/router.js",
+		"/media/no1dev/samuel-allen.com/app/models/cover-letter.js",
+		"/media/no1dev/samuel-allen.com/app/routes/cover-letters.js",
+		"/media/no1dev/samuel-allen.com/app/templates/cover-letter.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/old-site-output.html",
+		"/media/no1dev/api.samuel-allen.com/crossdomain.xml",
 		"/media/no1dev/samuel-allen.com/app/routes/skills.js",
 		"/media/no1dev/samuel-allen.com/app/serializers/application.js",
 		"/media/no1dev/samuel-allen.com/app/adapters/application.js",
@@ -435,22 +367,7 @@
 		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/_super_search_resources.html",
 		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/site.group/_site_search.html",
 		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/search.group/index.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/library.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/search.group/solspace-test.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/_super_search_library.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/search.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/index.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/widgets.group/news_events_quick_events.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/day.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/_calendar.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/_events.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/events.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/widgets.group/related_entries.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/galleries.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/news-events.group/month.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/site.group/_persistent_sidebar.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/styles.group/defaults.css",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/styles.group/index.css"
+		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/library.html"
 	],
 	"find":
 	{
@@ -471,6 +388,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</p>",
+			"workhistory",
 			"item",
 			"192.168.1.10",
 			"'",
@@ -609,285 +528,13 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "old-site-output.html",
-					"settings":
-					{
-						"buffer_size": 23464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9830,
-								9830
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 9519.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/index.html",
-					"settings":
-					{
-						"buffer_size": 3079,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1472,
-								1472
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1900.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/router.js",
-					"settings":
-					{
-						"buffer_size": 461,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/templates/skills.hbs",
-					"settings":
-					{
-						"buffer_size": 417,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/templates/workhistories.hbs",
-					"settings":
-					{
-						"buffer_size": 559,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/media/no1dev/api.samuel-allen.com/api/models/Workhistories.js",
-					"settings":
-					{
-						"buffer_size": 620,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/templates/application.hbs",
-					"settings":
-					{
-						"buffer_size": 829,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 399.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 7,
-					"file": "app/routes/workhistories.js",
-					"settings":
-					{
-						"buffer_size": 104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/models/skills.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/models/workhistories.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

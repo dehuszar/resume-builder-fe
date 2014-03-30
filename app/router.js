@@ -5,8 +5,8 @@ Router.map(function() {
 	this.route('helper-test');
 
 	// Cover Letters
-	this.resource('coverletters', { path:'/:coverletter_id' }, function(){
-		this.resource('coverletter', { path:'/:coverletter_id' }, function(){
+	this.resource('cover-letters', function(){
+		this.resource('cover-letter', { path:'/:coverLetter_id' }, function(){
 			this.route('edit');
 		});
 		this.route('create');
