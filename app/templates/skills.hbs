@@ -1,17 +1,16 @@
 <section id="skills" class="skills module">
-	<h1>Skills</h1>
+	<h1>Skills <small>(click skills for more details)</small></h1>
 	<article>
 		<div class="large inline description">
 		</div>
 		<div class="large">
-			<h2>Development Expertise <span class="system"> (click items for more details)</span></h2>
 			<ul>
 				{{#each skill in controller}}
 				<li>
-					{{skill.title}};
+					<span>{{skill.title}}</span>
 					<div class="skill-contents">
 						<p class="desc">{{skill.description}}</p>
-						<button class="edit" {{action "edit" skill}}>edit</button>
+						{{!-- <button class="edit" {{!action "edit" skill}}>edit</button> --}}
 					</div>
 				</li>
 				{{/each}}
