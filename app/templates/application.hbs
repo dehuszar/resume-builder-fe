@@ -10,6 +10,7 @@
 			<a href="mailto:dehuszar@gmail.com">dehuszar@gmail.com</a>
 		</span>
 	</address>
+	<button {{action 'open'}}><img src="/images/menu.svg" alt="Menu icon" /></button>
 </header>
 
 <div class="main">
@@ -18,7 +19,9 @@
 
 </div>
 
-<aside id="modules" class="modules sidebar">
+{{!-- <aside id="modules" class="modules sidebar"> --}}
+{{#view view.NavigationView}}
+	{{log view.parentView.controller.isVisible}}
 	<nav>
 		<ul>
 			<li>{{#link-to "cover-letters"}}Cover Letter{{/link-to}}</li>
@@ -31,4 +34,5 @@
 			</li>
 		</ul>
 	</nav>
-</aside>
+{{/view}}
+{{!-- </aside> --}}
