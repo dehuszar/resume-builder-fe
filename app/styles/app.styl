@@ -6,9 +6,46 @@ html, body {
 	margin: 20px;
 }
 
-@keyframes domChanged { from { background: yellow; } }
-@-webkit-keyframes domChanged { from { background: yellow; } }
-.ember-view { animation: domChanged 1s; -webkit-animation: domChanged 1s; }
+// @keyframes domChanged { from { background: yellow; } }
+// @-webkit-keyframes domChanged { from { background: yellow; } }
+// .ember-view { animation: domChanged 1s; -webkit-animation: domChanged 1s; }
+
+@keyframes growOut {
+	0% {		
+		left: auto;
+		padding: 2rem;
+		top: auto;		
+	}
+	
+	100% {
+		left: 0;
+		padding: 0;
+		top: 0;
+	}
+}
+
+@keyframes slideInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(2000px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+// @keyframes scaleOut {
+// 	0% {
+// 		font-size: 1em;
+// 	}
+	
+// 	100% {
+// 		font-size: 2em;
+// 	}
+// }
+
 
 /*
  * HTML5 Boilerplate
@@ -19,8 +56,8 @@ html, body {
  */
 
 /* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+	 Base styles: opinionated defaults
+	 ========================================================================== */
 
 html,
 button,
@@ -31,7 +68,7 @@ textarea {
 }
 
 html {
-	font-size: 10px;
+	font-size: 62.5%;
 	line-height: normal;
 }
 
@@ -104,8 +141,8 @@ textarea {
 }
 
 /* ==========================================================================
-   Chrome Frame prompt
-   ========================================================================== */
+	 Chrome Frame prompt
+	 ========================================================================== */
 
 .chromeframe {
 	margin: 0.2em 0;
@@ -115,8 +152,8 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+	 Author's custom styles
+	 ========================================================================== */
 
 html {
 	font-family: "superclarendon", sans-serif;
@@ -137,11 +174,21 @@ header {
 header h1 {
 	line-height: .75em; 
 	margin: 0 0 0.5em 0;
+
+	@media all and ( min-width: 800px ) {
+		display: inline-block;
+		width: 49%;
+	}
 }
 
 header address {
 	font-size: .75em;
 	font-style: normal;
+
+	@media all and ( min-width: 800px ) {
+		display: inline-block;
+		width: 50%;
+	}
 }
 
 header address span {
@@ -163,7 +210,13 @@ header button {
 	position: absolute;
 	right: 0;
 	top: .75em;
+	transition: transform .4s;
 	width: 2em;
+	z-index: 2;
+
+	[data-state="is-open"] & {
+		transform: rotateZ( 90deg );
+	}
 }
 
 aside.sidebar {
@@ -172,12 +225,26 @@ aside.sidebar {
 	margin: 0;
 	position: fixed;
 	top: 0;
-	transform: translateX(100%);
-	transition: transform .4s;
+	transform: translateX( 100% );
+	transition: right .4s, transform .4s;
 	width: 100%;
 
+	@media only screen and ( min-width: 800px ) {
+		padding: 5% 2%;
+		right: -40rem;
+		transform: none;
+		width: auto;
+	}
+
 	&[data-state="is-visible"] {
-		transform: translateX(0);
+		transform: translateX( 0 );
+
+		@media only screen and ( min-width: 800px ) {
+			border-left: 1px solid;
+			right: 0;
+			// // transform: translateX( 100% );
+			// width: 40rem;
+		}
 	}
 }
 
@@ -224,6 +291,10 @@ article > div {
 	display: inline-block;
 	width: 49%;
 
+	@media only screen and ( min-width: 800px ) {
+		width: 32.5%;
+	}
+
 	&:not(.large) {
 		margin: 0 0 1em 0;
 	}
@@ -232,6 +303,12 @@ article > div {
 article > div.large,
 article > div.position {
 	width: 100%;
+}
+
+article > div.position {
+	@media only screen and ( min-width: 800px ) {
+		width: 32.5%;
+	}
 }
 
 .main > section > h1 {
@@ -246,10 +323,7 @@ article > div.position {
 .if-room {
 	display: none;
 
-	@media only screen and (min-width: 40rem) and (	-webkit-min-device-pixel-ratio: 2 ),
-				only screen and (min-width: 40rem) and (					min-device-pixel-ratio: 2 ),
-				only screen and (min-width: 80rem) and (	-webkit-min-device-pixel-ratio: 1 ),
-				only screen and (min-width: 80rem) and (					min-device-pixel-ratio: 1 ) {
+	@media only screen and ( min-width: 960px ) {
 		display: inline;
 	}
 }
@@ -284,8 +358,66 @@ h2 .system {
 	display: block; font-size: .6em;
 }
 
-ul .desc {
-	display: none;
+// .skills ul .desc {
+// 	display: none;
+// }
+
+.skills ul {
+	position: relative;
+}
+
+.skills li {
+	// overflow: hidden;  --ONCE YOU HAVE AUTO-HEIGHT DETECTION IN PLACE UNCOMMENT THIS
+	// transform: translateX(100%);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1em;
+	left: auto;
+	padding: 2rem;
+	position: relative;
+	top: auto;
+	transition: all .5s;
+}
+
+.skills li .desc {
+	font-size: 1.4rem;
+	position: absolute;
+	max-height: 0;
+	overflow: hidden;
+	transform: translateX(2000px);
+	transition: all .5s;
+	width: 100%;
+}
+
+.skills li[data-state="is-selected"] {
+	// animation: growOut .4s;
+	background: rgba(white,.75);
+	font-size: 2em;
+	height: 100%;
+	left: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	transform: translate3d(0, 0 ,0);
+	transition: all .5s;
+	width: 100%;
+	z-index: 1;
+}
+
+.skills li > span {
+	display: inline-block;
+	width: 100%;
+}
+
+.skills li[data-state="is-selected"] .desc {
+	animation: slideInRight .4s linear;
+	background: rgba(white,.75);
+	font-size: 1.4rem;
+	max-height: 10rem;
+	position: relative;
+	transform: translateX(0);
+	transition: all .5s;
+	width: 100%;
 }
 
 /* Education */
@@ -299,8 +431,8 @@ ul .desc {
 }
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+	 Helper classes
+	 ========================================================================== */
 
 /*
  * Image replacement
@@ -400,10 +532,10 @@ ul .desc {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+	 EXAMPLE Media Queries for Responsive Design.
+	 Theses examples override the primary ('mobile first') styles.
+	 Modify as content requires.
+	 ========================================================================== */
 
 
 @media only screen and (max-width: 30em) {
@@ -453,14 +585,14 @@ ul .desc {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-	   only screen and (min-resolution: 144dpi) {
+		 only screen and (min-resolution: 144dpi) {
 	/* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
+	 Print styles.
+	 Inlined to avoid required HTTP connection: h5bp.com/r
+	 ========================================================================== */
 
 @media print {
 	* {
