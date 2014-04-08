@@ -28,6 +28,14 @@ Router.map(function() {
 		this.route('create');
 	});
 
+	// Projects
+	this.resource('projects', function() {
+		this.resource('project', { path:'/:project_id' }, function(){
+			this.route('edit');
+		});
+		this.route('create');
+	});
+
 	// References
 	this.resource('references', function() {
 		this.resource('reference', { path:'/:reference_id' }, function(){

@@ -1,21 +1,19 @@
-<section id="skills" class="skills module">
+{{!-- <section id="skills" class="skills module"> --}}
 	<h1>Skills <small>(click skills for more details)</small></h1>
 	<article>
-		<div class="large inline description">
-		</div>
 		<div class="large">
 			<ul>
 				{{#each skill in controller}}
-				<li>
-					<span>{{skill.title}}</span>
-					<div class="skill-contents">
-						<p class="desc">{{skill.description}}</p>
-						{{!-- <button class="edit" {{!action "edit" skill}}>edit</button> --}}
-					</div>
-				</li>
+					{{#view view.SkillItem}}
+						<span>{{skill.title}}</span>
+						{{!-- <div class="skill-contents"> --}}
+							<p class="desc">{{skill.description}}</p>
+							{{!-- <button class="edit" {{!action "edit" skill}}>edit</button> --}}
+						{{!-- </div> --}}
+					{{/view}}
 				{{/each}}
 				{{outlet}}
 			</ul>
 		</div>
 	</article>
-</section>
+{{!-- </section> --}}

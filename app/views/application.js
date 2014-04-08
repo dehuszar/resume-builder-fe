@@ -1,5 +1,13 @@
 var ApplicationView = Ember.View.extend({
-	id: 'application',
+	elementId: 'application',
+	attributeBindings:	['data-state'],
+
+	// properties
+	'data-state': function() {
+		if (this.get('controller.isVisible'))
+			return 'is-open';
+	}.property('controller.isVisible'),
+
 
 	// sub-views
 	NavigationView: Ember.View.extend({

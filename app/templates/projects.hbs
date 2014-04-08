@@ -1,0 +1,21 @@
+<section class="projects">
+	<h1>Projects</h1>
+	{{#each project in controller}}
+		<article>
+			<h2>{{project.title}}</h2>
+			<p>{{project.description}}</p>
+			<p>Notable features include</p>
+			<ul>
+				{{#if project.features}}
+					{{#each project.features}}
+						{{!-- {{!partial "feature"}} --}}
+						<li>{{description}};</li>
+					{{/each}}
+				{{/if}}
+			</ul>
+			<p class="site-link">
+				<a {{bind-attr href="project.link"}} target="_blank">{{project.link}}</a>
+			</p>
+		</article>
+	{{/each}}
+</section>
