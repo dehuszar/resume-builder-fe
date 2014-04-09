@@ -8,7 +8,7 @@ var SkillsView = Ember.View.extend({
 
 		// properties
 		'data-state': function() {
-			if(this.get('isSelected') == true)
+			if(this.get('isSelected') === true)
 				return 'is-selected';
 			else
 				return '';
@@ -20,8 +20,6 @@ var SkillsView = Ember.View.extend({
 				this.set('isSelected', false);
 			else
 				this.set('isSelected', true);
-
-			console.log(this.get('isSelected'));
 		}
 		
 	})
