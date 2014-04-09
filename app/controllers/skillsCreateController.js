@@ -11,7 +11,7 @@ var SkillsCreateController = Ember.ObjectController.extend({
       newSkill.save();
 
       // redirects to the skill itself
-      this.transitionToRoute('skill', newSkill);
+      // this.transitionToRoute('skill', newSkill);
     }
   }
 });
