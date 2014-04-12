@@ -1,8 +1,14 @@
-// app/components/scribe-rte.js
+/* /components/scribe-rte.js */
 
-export default Ember.TextArea.extend({ 
+
+// import Scribe from "/vendor/scribe/scribe";
+
+export default Ember.TextArea.extend({
+	classNames: ['scribe-html'],
 	didInsertElement: function(){
-		console.log(this);
+  	var scribeElement = this.$();
+		console.log(scribeElement);
+		var scribe = new Scribe(scribeElement);
 	}
 });
 
