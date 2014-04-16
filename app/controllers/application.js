@@ -1,5 +1,8 @@
 var ApplicationController = Ember.Controller.extend({
 	isVisible: false,
+	updateCurrentPath: function() {
+        App.set('currentPath', this.get('currentPath'));
+    }.observes('currentPath'),
 
 	actions: {
 		open: function() {
