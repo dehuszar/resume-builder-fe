@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"thi",
+				"thisParent"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"re",
+				"renderedEditor"
+			],
+			[
+				"cover",
+				"cover-letters"
+			],
+			[
+				"co",
+				"cover-letter"
+			],
+			[
 				"ex",
 				"extend"
 			],
@@ -22,10 +42,6 @@
 			[
 				"file",
 				"filename"
-			],
-			[
-				"re",
-				"registry"
 			],
 			[
 				"menu",
@@ -187,6 +203,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 3403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/app.styl",
+			"settings":
+			{
+				"buffer_size": 12843,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/cover-letter.hbs",
+			"settings":
+			{
+				"buffer_size": 71,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dehuszar/Development/api.samuel-allen.com/resume-coverletters-export-2014-04-15.json",
+			"settings":
+			{
+				"buffer_size": 3180,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -194,6 +242,14 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
 			[
 				"con",
 				"Indentation: Convert to Tabs"
@@ -223,7 +279,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -240,21 +296,44 @@
 	},
 	"file_history":
 	[
-		"/media/no1dev/api.samuel-allen.com/config/routes.js",
+		"/home/dehuszar/.config/sublime-text-2/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/home/dehuszar/Development/samuel-allen.com/app/components/jquery-rt.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/components/scribe-rte.js",
 		"/home/dehuszar/Development/samuel-allen.com/app/templates/application.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/controllers/cover-letter/edit.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/cover-letter/edit.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/skill/edit.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/skills/edit.hbs",
+		"/home/dehuszar/Development/api.samuel-allen.com/config/routes.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/helpers/reverse-word.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/routes/cover-letter/edit.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/routes/cover-letter.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/cover-letters.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/cover-letter.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/components/scribe-rte.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/helpers/scribe-rte.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/router.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/routes/skills.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/routes/cover-letters.js",
+		"/home/dehuszar/Development/samuel-allen.com/vendor/ember-resolver/dist/modules/ember-resolver.js",
+		"/home/dehuszar/Development/ember-app-kit-todos/app/models/todo.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/routes/cover-letter/index.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/templates/cover-letter/index.hbs",
+		"/home/dehuszar/Development/samuel-allen.com/app/routes/skill/edit.js",
+		"/home/dehuszar/Development/samuel-allen.com/app/index.html",
+		"/home/dehuszar/Development/samuel-allen.com/app/models/cover-letter.js",
+		"/media/no1dev/samuel-allen.com/app/templates/cover-letter.hbs",
+		"/media/no1dev/samuel-allen.com/app/routes/cover-letters.js",
+		"/media/no1dev/samuel-allen.com/app/models/cover-letter.js",
+		"/media/no1dev/api.samuel-allen.com/config/routes.js",
 		"/media/no1dev/api.samuel-allen.com/api/models/Workhistories.js",
 		"/home/dehuszar/Development/samuel-allen.com/app/templates/skills.hbs",
 		"/home/dehuszar/Development/samuel-allen.com/app/templates/workhistories.hbs",
-		"/home/dehuszar/Development/samuel-allen.com/app/index.html",
-		"/home/dehuszar/Development/samuel-allen.com/app/router.js",
 		"/home/dehuszar/Development/samuel-allen.com/app/models/workhistories.js",
 		"/home/dehuszar/Development/samuel-allen.com/app/models/skills.js",
 		"/home/dehuszar/Development/samuel-allen.com/app/routes/workhistories.js",
 		"/media/no1dev/api.samuel-allen.com/api/models/CoverLetters.js",
 		"/media/no1dev/samuel-allen.com/app/router.js",
-		"/media/no1dev/samuel-allen.com/app/models/cover-letter.js",
-		"/media/no1dev/samuel-allen.com/app/routes/cover-letters.js",
-		"/media/no1dev/samuel-allen.com/app/templates/cover-letter.hbs",
 		"/home/dehuszar/Development/samuel-allen.com/old-site-output.html",
 		"/media/no1dev/api.samuel-allen.com/crossdomain.xml",
 		"/media/no1dev/samuel-allen.com/app/routes/skills.js",
@@ -344,30 +423,7 @@
 		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/_header.html",
 		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/edit_employer.html",
 		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/news.group/edit_news.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/page.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/_share.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/_footer.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/edit_job.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/calendar.group/edit_event.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/jobs.group/edit_job_placement.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/notes.group/edit_note.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/resources.group/edit_resource.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/about.group/edit_partner.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/about.group/edit_affiliate.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/edit_page.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/about.group/index.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/registrations.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/_filters.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/export_jobs.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/_nav.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/export_applications.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/_export_member_data.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/reports.group/export_jobs",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/scripts.group/main.js",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/_super_search_resources.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/site.group/_site_search.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/search.group/index.html",
-		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/stg.ccr.no1isincontrol.com/templates/default_site/resources.group/library.html"
+		"/run/user/dehuszar/gvfs/sftp:host=no1isincontrol.com,user=dehuszar/var/www/worklocal.no1isincontrol.com/templates/default_site/site.group/page.html"
 	],
 	"find":
 	{
@@ -378,6 +434,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/home/dehuszar/Development/samuel-allen.com",
 			"/media/no1dev/api.samuel-allen.com",
 			"/media/no1dev/samuel-allen.com/app",
 			""
@@ -388,6 +445,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"edit",
+			"isNative",
 			"</p>",
 			"workhistory",
 			"item",
@@ -528,8 +587,116 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 3403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/styles/app.styl",
+					"settings":
+					{
+						"buffer_size": 12843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6713,
+								6713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/editors/Stylus.tmbundle/Syntaxes/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6783.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/templates/cover-letter.hbs",
+					"settings":
+					{
+						"buffer_size": 71,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/dehuszar/Development/api.samuel-allen.com/resume-coverletters-export-2014-04-15.json",
+					"settings":
+					{
+						"buffer_size": 3180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -566,7 +733,7 @@
 		"cols":
 		[
 			0.0,
-			0.452858203415,
+			0.583102411305,
 			1.0
 		],
 		"rows":
@@ -601,6 +768,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 198.0,
+	"side_bar_width": 258.0,
 	"status_bar_visible": true
 }
