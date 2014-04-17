@@ -2,6 +2,19 @@
 */
 var SkillEditController = Ember.ObjectController.extend({
 	editForm: 	true,
+
+  categories: [
+    {
+      name: "Development Expertise", 
+      slug: "development"
+    },
+    {
+      name: "Sys-Admin Expertise", 
+      slug: "sys-admin"
+    }
+  ],
+  selectedCategory: null,
+  
   actions: {
     save: function(){
       var skill = this.get('model');

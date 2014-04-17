@@ -11,11 +11,12 @@
 			{{textarea value=description}}
 
 			<label>Category</label>
-			{{#view Ember.Select}}
-				<option>--</option>
-				<option value="Development Expertise">Development Expertise</option>
-				<option value="Sys-Admin Expertise">Sys-Admin Expertise</option>			
-			{{/view}}
+			{{view Ember.Select
+							content=categories
+							optionValuePath="content.slug"
+							optionLabelPath="content.name"
+							prompt="--"
+							valueBinding="category"}}
 			<button {{action "save"}}> save </button>
 		</div>
 {{#if createForm}}
