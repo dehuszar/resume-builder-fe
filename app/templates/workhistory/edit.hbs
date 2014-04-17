@@ -1,6 +1,6 @@
 {{!-- /templates/workhistory/edit.hbs --}}
 {{#if createForm}}
-	<aside class="edit-form">
+	<aside class="edit-form">w
 		<h1>Create a New Work History</h1>
 {{/if}}
 		<div class="workhistory-edit">
@@ -21,8 +21,8 @@
 				{{input value=duty}}<button {{action "removeDuty" this}}>X</button>
 			{{else}}				
 				{{#each view.duties}}
-  				{{input value=duty}}
-  			{{/each}}
+					{{input value=duty}}
+				{{/each}}
 			{{/each}}
 			<button {{action "addDuty"}}> add + </button>
 			<button {{action "save"}}> save </button>

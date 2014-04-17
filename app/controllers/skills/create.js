@@ -2,6 +2,18 @@
 */
 var SkillsCreateController = Ember.ObjectController.extend({
 	createForm: 	true,
+
+	categories: [
+		{
+			name: "Development Expertise", 
+			slug: "development"
+		},
+		{
+			name: "Sys-Admin Expertise", 
+			slug: "sys-admin"
+		}
+	],
+
 	actions: {
 		save: function(){
 			// just before saving, we set the creationDate
