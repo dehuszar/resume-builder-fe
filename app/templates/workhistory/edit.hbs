@@ -18,9 +18,11 @@
 			{{{textarea value=description}}}
 			<label>Responsibilities</label>
 			{{#each duties}}
-				{{input value=duty}}
+				{{input value=duty}}<button {{action "removeDuty" this}}>X</button>
 			{{else}}				
-				{{input value=duties.duty}}
+				{{#each view.duties}}
+    				{{input value=duty}}
+    			{{/each}}
 			{{/each}}
 			<button {{action "addDuty"}}> add + </button>
 			<button {{action "save"}}> save </button>
