@@ -1,12 +1,23 @@
 {{!-- /templates/skill/edit.hbs --}}
-<aside class="skill-edit">
-  <label>Name</label>
-  {{input value=title}}
+{{#if createForm}}
+	<aside class="edit-form">
+		<h1>Create a New Skill</h1>
+{{/if}}
+		<div class="skill-edit">
+			<label>Name</label>
+			{{input value=title}}
 
-  <label>Description</label>
-  {{textarea value=description}}
+			<label>Description</label>
+			{{textarea value=description}}
 
-  <label>Category</label>
-  {{input value=category}}
-  <button {{action "save"}}> ok </button>
-</aside>
+			<label>Category</label>
+			{{#view Ember.Select}}
+				<option>--</option>
+				<option value="Development Expertise">Development Expertise</option>
+				<option value="Sys-Admin Expertise">Sys-Admin Expertise</option>			
+			{{/view}}
+			<button {{action "save"}}> save </button>
+		</div>
+{{#if createForm}}
+	</aside>
+{{/if}}

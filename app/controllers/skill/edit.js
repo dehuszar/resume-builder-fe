@@ -1,6 +1,7 @@
 /* /controllers/skill/edit.js 
 */
 var SkillEditController = Ember.ObjectController.extend({
+	editForm: 	true,
   actions: {
     save: function(){
       var skill = this.get('model');

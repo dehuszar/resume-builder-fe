@@ -1,15 +1,8 @@
-/* /controllers/projects/create.js
+/* /controllers/skills/create.js
 */
-var ProjectsCreateController = Ember.ObjectController.extend({
+var SkillsCreateController = Ember.ObjectController.extend({
 	createForm: 	true,
-	features: [],
 	actions: {
-		addFeature: function() {
-			if (this.get('features'))
-				this.get('features').pushObject({description: ''});
-			else
-				console.log('need features');
-		},
 		save: function(){
 			// just before saving, we set the creationDate
 			// this.get('model').set('creationDate', new Date());
@@ -23,4 +16,4 @@ var ProjectsCreateController = Ember.ObjectController.extend({
 	}
 });
 
-export default ProjectsCreateController;
+export default SkillsCreateController;
