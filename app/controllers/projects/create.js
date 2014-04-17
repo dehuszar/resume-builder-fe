@@ -2,6 +2,14 @@
 */
 var ProjectsCreateController = Ember.ObjectController.extend({
 	createForm: 	true,
+	features: [],
+	actions: {
+		addFeature: function() {
+			if (this.get('features'))
+				this.get('features').pushObject({description: ''});
+			else
+				console.log('need features');
+		},
 	actions: {
 		save: function(){
 			// just before saving, we set the creationDate

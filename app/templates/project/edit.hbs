@@ -9,9 +9,9 @@
 			{{{textarea value=description}}}
 			<label>Features</label>
 			{{#each features}}
-				{{input value=description}}
+				{{input value=description}}<button {{action "removeDuty" this}}>X</button>
 			{{else}}				
-				{{input value=features.description}}
+				{{input value=description}}
 			{{/each}}
 			<button {{action "addDesc"}}> add + </button>
 			<button {{action "save"}}> save </button>
