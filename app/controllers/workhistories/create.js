@@ -3,6 +3,12 @@
 var WorkhistoriesCreateController = Ember.ObjectController.extend({
 	createForm: 	true,
 	actions: {
+		addDuty: function() {
+			if (this.get('duties'))
+				this.get('duties').pushObject({duty: ''});
+			else
+				console.log('need duties');
+		},
 		save: function(){
 			// just before saving, we set the creationDate
 			// this.get('model').set('creationDate', new Date());
