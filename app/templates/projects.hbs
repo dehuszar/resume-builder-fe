@@ -1,10 +1,11 @@
 <section class="projects">
 	<h1>Projects</h1>
+
 	{{#each project in controller}}
 		<article>
 			<h2>{{project.title}}</h2>
 			<p>{{project.description}}</p>
-			<p>Notable features include</p>
+			<h3>Notable features include</h3>
 			<ul>
 				{{#if project.features}}
 					{{#each project.features}}
@@ -18,4 +19,5 @@
 			</p>
 		</article>
 	{{/each}}
+	{{outlet}}
 </section>

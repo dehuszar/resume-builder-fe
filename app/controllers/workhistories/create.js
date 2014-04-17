@@ -2,6 +2,7 @@
 */
 var WorkhistoriesCreateController = Ember.ObjectController.extend({
 	createForm: 	true,
+	duties: [],
 	actions: {
 		addDuty: function() {
 			if (this.get('duties'))
