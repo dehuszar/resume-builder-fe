@@ -1,0 +1,21 @@
+{{!-- /templates/projects/edit.hbs --}}
+{{#if createForm}}
+	<aside class="edit-form">
+		<h1>Create a New Project</h1>
+{{/if}}
+		<div class="projects-edit">
+			<label>Title</label>
+			{{input value=title}}
+			{{{textarea value=description}}}
+			<label>Features</label>
+			{{#each features}}
+				{{input value=description}}
+			{{else}}				
+				{{input value=features.description}}
+			{{/each}}
+			<button {{action "addDesc"}}> add + </button>
+			<button {{action "save"}}> save </button>
+		</div>
+{{#if createForm}}
+	</aside>
+{{/if}}
