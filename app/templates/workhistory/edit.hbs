@@ -1,0 +1,30 @@
+{{!-- /templates/workhistory/edit.hbs --}}
+{{#if createForm}}
+	<aside class="edit-form">
+		<h1>Create a New Work History</h1>
+{{/if}}
+		<div class="workhistory-edit">
+			<label>Title</label>
+			{{input value=title}}
+			<label>Location</label>
+			{{input value=location}}
+			<label>Employed From</h2>
+			{{input value=employedFrom}}
+			<label>to</label>
+			{{input value=employedTo}}
+			<label>Position</label>
+			{{input value=position}}
+			<label>Description</label>
+			{{{textarea value=description}}}
+			<label>Responsibilities</label>
+			{{#each duties}}
+				{{input value=duty}}
+			{{else}}				
+				{{input value=duties.duty}}
+			{{/each}}
+			<button {{action "addDuty"}}> add + </button>
+			<button {{action "save"}}> save </button>
+		</div>
+{{#if createForm}}
+	</aside>
+{{/if}}
