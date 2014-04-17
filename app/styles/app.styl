@@ -160,7 +160,7 @@ html {
 	margin: 0;
 }
 
-header, section {
+header, section:not(:last-of-type) {
 	border-bottom: 1px solid;
 }
 
@@ -335,7 +335,7 @@ article > div.position {
 
 /* Modules */
 
-.module {
+.module:not(:last-of-type) {
 	border-bottom: 1px solid;
 	padding-bottom: 1em;
 }
