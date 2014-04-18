@@ -368,6 +368,9 @@ h2 .system {
 // }
 
 .skills ul {
+	height: 100%;
+	min-height: 20em;
+	overflow: hidden;
 	position: relative;
 }
 
@@ -378,17 +381,17 @@ h2 .system {
 	display: inline-block;
 	font-size: 1em;
 	left: auto;
+	overflow: hidden;
 	padding: 2rem;
 	position: relative;
 	top: auto;
-	transition: all .5s;
+	transition: font-size .5s, left .5s, padding .5s, position .5s 0s;
 }
 
 .skills li .desc {
 	font-size: 1.4rem;
 	position: absolute;
 	max-height: 0;
-	overflow: hidden;
 	transform: translateX(2000px);
 	transition: all .5s;
 	width: 100%;
@@ -399,10 +402,10 @@ h2 .system {
 	background: rgba(white,.75);
 	font-size: 2em;
 	height: 100%;
-	left: 0;
+	left: 0!important; // !important necessary for animation
 	padding: 0;
 	position: absolute;
-	top: 0;
+	top: 0!important; // !important necessary for animation
 	transform: translate3d(0, 0 ,0);
 	transition: all .5s;
 	width: 100%;
