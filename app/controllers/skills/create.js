@@ -13,7 +13,8 @@ var SkillsCreateController = Ember.ObjectController.extend({
 			slug: "sys-admin"
 		}
 	],
-
+	selectedCategory: null,
+	
 	actions: {
 		save: function(){
 			// just before saving, we set the creationDate
