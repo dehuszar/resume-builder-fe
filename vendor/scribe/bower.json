@@ -1,9 +1,0 @@
-{
-  "name": "scribe",
-  "version": "0.1.4",
-  "main": "./scribe.js",
-  "authors": [
-    "Oliver Joseph Ash <oliverjash@icloud.com>"
-  ],
-  "license": "MIT"
-}
