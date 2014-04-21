@@ -1,6 +1,6 @@
-# Resume Builder Front End [![Build Status](https://github.com/***REMOVED***/resume-builder-fe)]
+# Resume Builder Front End
 
-This project is the front end portion of a resume-building tool.  Currently, it is just a website, but more functionality is soon to come.  This piece requires use of the [Resume Builder API](https://github.com/***REMOVED***/resume-builder-api).
+This project is the front end portion of a resume-building tool.  Currently, it is just a website, but more functionality is soon to come.  This piece requires use of the [Resume Builder API](https://github.com/dehuszar/resume-builder-api).
 
 While the application is currently in a working state, setting it up from scratch may take some tinkering.  Please let me know if you need help getting set up.
 
