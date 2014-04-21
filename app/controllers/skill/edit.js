@@ -20,8 +20,6 @@ var SkillEditController = Ember.ObjectController.extend({
       var skill = this.get('model');
       // this will tell Ember-Data to save/persist the new record
       skill.save();
-      // then transition to the current skill
-      // this.transitionToRoute('skill', skill);
     }
   }
 });

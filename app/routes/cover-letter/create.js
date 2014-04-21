@@ -10,7 +10,7 @@ export default Ember.Route.extend({
 	// associated with the coverLettersCreateController
 	renderTemplate: function(){
 		this.render('coverLetter.edit', {
-			controller: 'coverLetterCreate'
+			controller: 'coverLetters.create'
 		});
 	}
 });

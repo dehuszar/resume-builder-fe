@@ -1,8 +1,6 @@
 export default DS.SailsRESTAdapter.extend({
-	// host: 'http://api.samuel-allen.com',
+	// You will want to change this api-host url
+	// It is presently set up to accommodate a local install
 	host: 'http://0.0.0.0:1337',
-	// host: function() {
-	// 	return window.ENV.API_HOST;
-	// },
 	log: true
 });

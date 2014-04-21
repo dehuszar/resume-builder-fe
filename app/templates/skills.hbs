@@ -6,10 +6,7 @@
 				{{#each skill in controller}}
 					{{#view view.SkillItem}}
 						<span>{{skill.title}}</span>
-						{{!-- <div class="skill-contents"> --}}
 							<p class="desc">{{skill.description}}</p>
-							{{!-- <button class="edit" {{!action "edit" skill}}>edit</button> --}}
-						{{!-- </div> --}}
 					{{/view}}
 				{{/each}}
 			</ul>
