@@ -7,8 +7,6 @@ var CoverLetterEditController = Ember.ObjectController.extend({
 
       // this will tell Ember-Data to save/persist the new record
       coverLetter.save();
-      // then transition to the current coverLetter
-      // this.transitionToRoute('coverLetter', coverLetter);
     }
   }
 });

@@ -10,15 +10,15 @@ var WorkhistoryEditController = Ember.ObjectController.extend({
 				console.log('need duties');
 		},
 		removeDuty: function() {
-			console.log(this);
-			debugger
+			// Not implemented yet.
+			// Need to convert fields to views so the 
+			// delete button can delete the record in 
+			// the current view context
 		},
 		save: function(){
 			var workhistory = this.get('model');
 			// this will tell Ember-Data to save/persist the new record
 			workhistory.save();
-			// then transition to the current workhistory
-			// this.transitionToRoute('workhistory', workhistory);
 		}
 	}
 });

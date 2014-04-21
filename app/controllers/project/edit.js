@@ -10,15 +10,15 @@ var ProjectEditController = Ember.ObjectController.extend({
 				console.log('need features');
 		},
 		removeDuty: function() {
-			console.log(this);
-			debugger
+			// Not implemented yet.
+			// Need to convert fields to views so the 
+			// delete button can delete the record in 
+			// the current view context
 		},
 		save: function(){
 			var project = this.get('model');
 			// this will tell Ember-Data to save/persist the new record
 			project.save();
-			// then transition to the current project
-			// this.transitionToRoute('project', project);
 		}
 	}
 });

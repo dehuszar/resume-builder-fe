@@ -32,11 +32,10 @@ var SkillsView = Ember.View.extend({
 					this.set('isSelected', false);
 				}, 600);
 			} else {
-				this.$().css({/*"height": this.get('skillHeight'), */"left": this.get('skillLeft'), "top": this.get('skillTop')}).animate({left: "0", top: "0"}, 500);
+				this.$().css({"left": this.get('skillLeft'), "top": this.get('skillTop')}).animate({left: "0", top: "0"}, 500);
 				this.set('isSelected', true);
 				var desc = this.$().find('.desc').height();
 				console.log("height: " + (desc + 36));
-				// debugger;
 			}
 		}
 		
