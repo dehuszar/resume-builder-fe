@@ -34,12 +34,9 @@ This application is NOT secured, so don't put up your own resume site and expect
 
 - A LOT more
 
-
-Think anything else is missing? Feel free to open an issue (or, even better, a PR)! Discussion and feedback is always appreciated.
-
-## Special Thanks
+## Feedback
+Anyone who is interested in taking a look at this, I welcome any and all feedback, but constructive feedback is preferred.
 
 ## License
 
-Still figuring out.  Will be Open-Source.  Don't feel constrained, I won't punk you later I promise.  All feedback welcome.  Constructive feedback preferred.
-
+Still figuring out.  Will be Open-Source.  Don't feel constrained, I won't punk you later I promise.
